@@ -1,0 +1,37 @@
+/* Define the stones */
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('white_stone.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('black_stone.png');
+}
+
+/* Define the subdued board -- d2ac76 is used as an approximately equal colour */
+
+.shudan-goban {
+    --shudan-board-background-color: #d2ac76;
+}
+
+.shudan-goban-image {
+    background-image: url('subdued_board.png');
+}
+
+/* Black border */
+
+.shudan-goban {
+    --shudan-board-border-color: #000000;
+}
+
+/* Black player bar */
+
+#bar {
+    background: #000000;
+}
+
+/* Suppress the "tatami mat" that exists as of 0.15 */
+
+main {
+    background: #000000;
+}
